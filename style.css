@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+a:active{
+    color: #000;
+}
+
+/* Geral */
+
+html{
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+body{
+    background-color:#fae4e4;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.background-pink{
+    background-color: #fae4e4;
+
+}
+.background-white{
+    background-color: #fefefe;
+
+}
+.background-dark-pink{
+    background-color: #cd9a9a;
+    height: 500px;
+}
+
+
+/* Header */
+
+header{
+
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    margin: 25px auto;
+    border-radius: 15px;
+    background-color: #fefefe;
+}
+
+.navbar-links{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    column-gap: 25px;
+    justify-content: space-between;
+}
+
+.navbar-links li{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 0 solid #c58e8e;
+    transition: 0.1s linear;
+}
+
+.navbar-links li:first-child{
+    background-color: #efaaaa;  
+    margin: 0 40px 0 0;
+    flex-basis: 7.5%;
+    border-radius: 15px 0 0 15px;
+}
+.navbar-links li:last-child{
+    background: linear-gradient(90deg, #efaaaa,#b88384, #efaaaa);
+    background-size: 200% 200%;
+    background-position: 0 50%;
+    margin: 0 0 0 40px;
+    flex-basis: 15%;
+    border-radius: 0 15px 15px 0;
+    transition: 1s ease-out;
+}
+
+.navbar-links li:last-child:hover{
+    background-position: 100% 50%;
+}
+
+
+.navbar-links li:not(:last-child):not(:first-child):hover{
+    margin-top: -1px;
+    border-top: 3px solid #efaaaa;
+    
+}
+
+.navbar-links li:not(:last-child):not(:first-child):hover a{
+    color: #efaaaa;
+}
+
+.navbar-links li a{
+    font-weight: bold;
+    color: #c58e8e;
+    font-size: 24px;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+
+.navbar-links li:first-child a, .navbar-links li:last-child a{
+   height: 75%;
+}
+
+.navbar-links li a img{
+    width: auto;
+    height: 100%;
+}
+
+.navbar-links li:last-child a p{
+    display: none;
+    color: #fefefe;
+}
+
+.navbar-links li:last-child:hover a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-links li:last-child:hover a img{
+    display: none;
+}
+.navbar-links li:last-child:hover a p{
+    display: block;
+}
+
+/* Introducao */
+
+.introducao{
+
+}
+
+.introducao-topo{
+    display: flex;
+    column-gap: 25px;
+    padding: 50px 25px;
+}
+
+.introducao-texto{
+    flex-basis: 50%;
+    padding: 50px 0 0 0;
+}
+
+.introducao-texto-imagem{
+    height: 50%;
+}
+
+.introducao-texto-imagem img{
+    width: 100%;
+    height: auto;
+}
+
+.introducao-texto-escrito{
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.introducao-texto-escrito p{
+    color: #cd9a9a;
+    line-height: 35px;
+    font-size: 25px;
+    justify-content: justify;
+    text-justify: inter-cluster;
+    text-align: justify;
+}
+
+.introducao-texto-escrito p span{
+    color: #f0a8a6;
+}
+
+.introducao-logo{
+    flex-basis: 50%;
+}
+
+.introducao-logo img{
+    height: auto;
+    width: 100%;
+}
+
+.introducao-links{
+    display: flex;
+    height: 40px;
+    padding: 25px 0;
+    flex-direction: row-reverse;
+    column-gap: 20px;
+}
+
+/* Quem-Somos*/
+
+.quem-somos{
+    display: flex;
+    height: 700px;
+    background-color: #fefefe;
+    column-gap: 100px;
+}
+
+.quem-somos-imagem{
+    flex-basis: 45%;
+}
+
+.quem-somos-imagem a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quem-somos-imagem a img{
+    height: 115%;
+}
+
+.quem-somos-texto{
+    display: block;
+    flex-basis: 55%;
+    row-gap: 25px;
+    padding: 100px 0;
+}
+
+.quem-somos-texto h1, .quem-somos-texto p{
+    display: block;
+    margin: 25px 0;
+}
+
+.quem-somos-texto h1{
+    font-family: 'Fleur De Leah';
+    color: #efaaaa;
+    font-size: 80px;
+}
+
+.quem-somos-texto p{
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: justify;
+    text-justify: inter-cluster;
+    text-align: justify;
+}
+
+.quem-somos-texto a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #efaaaa;
+    border-radius: 15px;
+}
+
+/* Frase */
+
+.frase{
+    position: relative;
+}
+
+.frase-texto{
+    position: absolute;
+    top: 200px;
+}
+
+.frase-imagem{
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    width: 50%;
+}
