@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Roboto:wght@100;400&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Dancing+Script&family=Didact+Gothic&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
@@ -16,18 +16,21 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar">
-                <ul class="navbar-links">
-                    <li><a href="#.html">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">
                         <img src="resources/images/logo_icone.png" alt="Home">
                     </a></li>
-                    <li><a href="#.html">Nossa História</a></li>
-                    <li><a href="#.html">Nosso Lar</a></li>
-                    <li><a href="#.html">Seja Voluntário</a></li>
-                    <li><a href="#.html">Parceiros</a></li>
-                    <li><a href="#.html">Contato</a></li>
-                    <li><a href="#.html">FAQ</a></li>
-                    <li><a href="#.html">
+                    <ul>
+                        <li><a href="#">Nossa História</a></li>
+                        <li><a href="#">Nosso Lar</a></li>
+                        <li><a href="#">Seja Voluntário</a></li>
+                        <li><a href="#">Parceiros</a></li>
+                        <li><a href="#">Conquistas</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                    <li><a href="#">
                         <img src="resources/images/doacao_icone.png" alt="Contribua">
                         <p>Contribua</p>
                     </a></li>
@@ -36,65 +39,156 @@
         </div>
     </header>
     <main>
-        <div class="background-pink">
+        <section class="introducao">
             <div class="container">
-                <section class="introducao">
-                    <div class="introducao-topo">
-                        <div class="introducao-texto">
-                            <div class="introducao-texto-imagem">
-                                <img src="resources/images/introducao-texto.png" alt="texto">
-                            </div>
-                            <div class="introducao-texto-escrito">
-                                <p>Numquam quia sunt quisquam possimus veniam, <span>nobis, quae repellendus</span> iure ea consectetur libero quo officiis culpa laborum <span>perferendis animi voluptatum sit amet</span> consectetur adipisicing elit. Aspernatur, quas. Numquam quia sunt quisquam <span>possimus veniam, nobis, quae</span> repellendus iure ea consectetur libero quo.</p>
-                            </div>
-                        </div>
-                        <div class="introducao-logo">
-                            <img src="resources/images/introducao_logo.png" alt="logo">
-                        </div>
+                <div class="topo">
+                    <div class="esquerda">
+                        <img src="resources/images/introducao-texto.png" alt="texto">
+                        <p>Numquam quia sunt quisquam possimus veniam, <span>nobis, quae repellendus</span> iure ea consectetur libero quo officiis culpa laborum <span>perferendis animi voluptatum sit amet</span> consectetur adipisicing elit. Aspernaturnt quisquam <span>possimus veniam, nobis, quae</span> repellendus libero quo.</p>
                     </div>
-                    <ul class="introducao-links">
-                        <li>
-                            <a href="#.html">
-                                <img src="resources/images/facebook_icone.png" alt="facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#.html">
-                                <img src="resources/images/instagram_icone.png" alt="instagram">
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-        <div class="background-white">
-            <div class="container">
-                <section class="quem-somos">
-                    <div class="quem-somos-imagem">
+                    <div class="direita">
+                        <img src="resources/images/introducao_logo.png" alt="logo">
+                    </div>
+                </div>
+                <ul class="baixo">
+                    <li>
                         <a href="#">
-                            <img src="resources/images/sobre-nos_imagem.png" alt="imagem">
+                            <img src="resources/images/facebook_icone.png" alt="facebook">
                         </a>
-                    </div>
-                    <div class="quem-somos-texto">
-                        <h1>Quem Somos?</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quas. Numquam quia sunt quisquam possimus veniam, nobis, quae repellendus iure ea consectetur libero quo officiis culpa laborum perferendis animi voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quas. Numquam quia sunt quisquam possimus veniam, nobis, quae repellendus iure ea consectetur libero quo officiis culpa laborum perferendis animi voluptatum.</p>
-                        <a href="#">Saiba Mais</a>
-                    </div>
-                </section>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/instagram_icone.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/email_icone.png" alt="email">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="background-dark-pink">
+        </section>
+        <section class="quem-somos">
             <div class="container">
-                <section class="frase">
-                    <div class="frase-texto">
-                        <img src="resources/images/frase_frase.png" alt="imagem">
-                    </div>
-                    <div class="frase-imagem">
-                        <img src="resources/images/frase_galho.png" alt="imagem">
-                    </div>
-                </section>
+                <div class="esquerda">
+                    <a href="#">
+                        <img src="resources/images/sobre-nos_imagem.png" alt="imagem">
+                    </a>
+                </div>
+                <div class="direita">
+                    <h1>Quem Somos?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quas. Numquam quia sunt quisquam possimus veniam, nobis, quae repellendus iure ea consectetur libero quo officiis culpa laborum perferendis animi voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quas. Numquam quia sunt quisquam possimus veniam, nobis, quae repellendus iure ea consectetur libero quo officiis culpa laborum perferendis animi voluptatum.</p>
+                    <a href="#"><img src="resources/images/botao_saiba-mais.png" alt="botao"></a>
+                </div>
             </div>
-        </div>
+        </section>
+        <section class="frase">
+            <div class="container">
+                <div class="texto">
+                    <img src="resources/images/frase_frase.png" alt="imagem">
+                </div>
+                <div class="galho">
+                    <img src="resources/images/frase_galho.png" alt="imagem">
+                </div>
+            </div>
+        </section>
+        <section class="processo">
+            <div class="container">
+                <h1>Como Trabalhamos</h1>
+                <img class="img_full" src="resources/images/timeline_processo.png" alt="timeline">
+                <img class="img_mobile" src="resources/images/timeline_processo_mobile.png" alt="timeline">
+            </div>
+        </section>
+        <section class="cards">
+            <div class="container">
+                <h1>Conheça mais sobre o nosso mundo</h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_nossa-historia.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_nosso-lar.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_voluntario.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_parceiros.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_conquistas.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_contato.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_faq.png" alt="card">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/card_doe.png" alt="card">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="container">
+            <section class="esquerda">
+                <img src="resources/images/footer_escrito.png" alt="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error, eaque aliquam incidunt vero accusamus aut accusantium, suscipit quas dolorem ratione. Provident ullam laudantium, nemo dolores asperiores non voluptatem soluta.</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/footer_facebook_icone.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/footer_instagram_icone.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="resources/images/footer_email_icone.png" alt="email">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="meio">
+                <h1>Nos ajude a mudar o mundo</h1>
+                <h2>Doe através do PIX</h2>
+                <img src="#" alt="PIX">
+                <p>Desenvolvido por Diego Manucci, Diego Brino e Gabriel Lamarca</p>
+            </section>
+            <section class="direita">
+                <ul>
+                    <li><a href="#">Nossa História</a></li>
+                    <li><a href="#">Nosso Lar</a></li>
+                    <li><a href="#">Seja Voluntário</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                    <li><a href="#">Conquistas</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Perguntas Frequêntes</a></li>
+                    <li><a href="#">Contribua</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
 </body>
-</html>
